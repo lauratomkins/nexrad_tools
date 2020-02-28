@@ -5,14 +5,9 @@ Created on Fri Dec  6 16:03:52 2019
 @author: lmtomkin
 """
 
-import matplotlib.pyplot as plt
-import tempfile
-import pytz
-from datetime import datetime
-import pyart
 import nexradaws
 
-date = '20191203'
+date = '20191210'
 radar = 'KOKX'
 
 conn = nexradaws.NexradAwsInterface()
